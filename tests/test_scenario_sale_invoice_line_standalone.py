@@ -188,7 +188,7 @@ class Test(unittest.TestCase):
         line1 = invoice.lines.find()[0]
         invoice.lines.append(line1)
         invoice.save()
-        config.user = sale.id
+        config.user = sale_user.id
         sale.reload()
         self.assertEqual(len(sale.invoices), 1)
 
