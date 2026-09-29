@@ -14,7 +14,8 @@ class Sale(metaclass=PoolMeta):
         searcher='search_invoice_lines')
     invoice_lines_ignored = fields.Many2Many(
             'sale.sale-ignored-account.invoice.line',
-            'sale', 'invoice', 'Invoice Lines Ignored', readonly=True)
+            'sale', 'invoice', 'Invoice Lines Ignored',
+            states={'editable': False})
 
     def get_invoice_lines(self, name):
         return list({il.id for l in self.lines for il in l.invoice_lines})
