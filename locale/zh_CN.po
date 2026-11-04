@@ -1,0 +1,72 @@
+#
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:sale.sale,invoice_lines:"
+msgid "Invoice Lines"
+msgstr "原始凭证明细"
+
+msgctxt "field:sale.sale,invoice_lines_ignored:"
+msgid "Invoice Lines Ignored"
+msgstr "已忽略的发票明细"
+
+msgctxt "field:sale.sale-ignored-account.invoice.line,create_date:"
+msgid "Create Date"
+msgstr "创建日期"
+
+msgctxt "field:sale.sale-ignored-account.invoice.line,create_uid:"
+msgid "Create User"
+msgstr "创建用户"
+
+msgctxt "field:sale.sale-ignored-account.invoice.line,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.sale-ignored-account.invoice.line,invoice:"
+msgid "Invoice Line"
+msgstr "发票明细"
+
+msgctxt "field:sale.sale-ignored-account.invoice.line,rec_name:"
+msgid "Record Name"
+msgstr "记录名称"
+
+msgctxt "field:sale.sale-ignored-account.invoice.line,sale:"
+msgid "Sale"
+msgstr "销售"
+
+msgctxt "field:sale.sale-ignored-account.invoice.line,write_date:"
+msgid "Write Date"
+msgstr "修改日期"
+
+msgctxt "field:sale.sale-ignored-account.invoice.line,write_uid:"
+msgid "Write User"
+msgstr "修改用户"
+
+msgctxt "model:ir.message,text:delete_sale_invoice_line"
+msgid "You can not delete invoice lines that comes from a sale."
+msgstr "无法删除来自销售单的发票明细。"
+
+msgctxt "model:sale.sale-ignored-account.invoice.line,name:"
+msgid "Sale - Ignored Invoice Line"
+msgstr "销售 - 已忽略发票明细"
+
+msgctxt "selection:party.party,sale_invoice_grouping_method:"
+msgid "Standalone"
+msgstr "独立"
+
+msgctxt "view:account.invoice.line:"
+msgid "Invoice Lines"
+msgstr "原始凭证明细"
+
+msgctxt "wizard_button:sale.handle.invoice.exception,ask,end:"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "wizard_button:sale.handle.invoice.exception,ask,handle:"
+msgid "Ok"
+msgstr "确定"
